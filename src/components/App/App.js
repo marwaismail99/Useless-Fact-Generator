@@ -60,7 +60,7 @@ function App() {
     <div className="App">
       <Header factOTD={factOTD} />
       <Fact fact={fact}/>
-      <TweetButton handleTweet={handleTweet}></TweetButton>
+      <TweetButton fact={fact} handleTweet={handleTweet}/>
       <Button handleClick={handleClick} />
     </div>
   );
