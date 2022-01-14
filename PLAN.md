@@ -7,10 +7,9 @@ Random Useless Facts - https://uselessfacts.jsph.pl
 ## MVP
 
 - Render Header on screen which shows app header and random useless fact of the day - done
-- Render button on the screen
-- When button is pressed, render random useless fact on the screen underneath
-- Random fact has source which is clickable
-- About link in header routes to about page which features team's names.
+- Render button on the screen - done
+- When button is pressed, render random useless fact on the screen underneath - done
+- Random fact has source which is clickable - done
 
 ## Components
 
@@ -27,4 +26,7 @@ Random Useless Facts - https://uselessfacts.jsph.pl
 
 ## Backlog (post-MVP)
 
+- Styling.
 - Tweet button on random useless fact.
+- About link in header routes to about page which features team's names.
+- Testing.
