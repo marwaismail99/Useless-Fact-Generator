@@ -1,10 +1,10 @@
 import React from "react";
 
-function Fact() {
+function Fact({fact}) {
   return (
     <div>
-      <h2>Fact goes here.</h2>
-      <p>Source of fact goes here.</p>
+      <h2>{fact.text}</h2>
+      <p>-<a href={fact.source_url}>{fact.source}</a></p>
     </div>
   );
 }
