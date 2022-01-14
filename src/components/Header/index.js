@@ -1,14 +1,19 @@
+import "./Header.css";
 import React from "react";
 
 function Header({ factOTD }) {
   return (
-    <div>
-      <h1>Useless Fact Generator</h1>
-      <p>Fact of the Day:</p>
-      <p>{factOTD.text}</p>
-      <p>
-        -<a href={factOTD.source_url}>{factOTD.source}</a>
-      </p>
+    <div className="header">
+      <div>
+        <h1>Useless Fact Generator</h1>
+      </div>
+      <div className="header-fotd">
+        <p className="fotd">Fact of the Day:</p>
+        <p className="fotd-fact">{factOTD.text}</p>
+        <p>
+          -<a href={factOTD.source_url}>{factOTD.source}</a>
+        </p>
+      </div>
     </div>
   );
 }
