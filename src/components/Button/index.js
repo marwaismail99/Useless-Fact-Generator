@@ -1,9 +1,16 @@
+import "./Button.css";
 import React from "react";
 
 function Button({ handleClick }) {
   return (
-    <div>
-      <button onClick={()=>{handleClick()}}>Get New Fact</button>
+    <div className="new-fact-button">
+      <button
+        onClick={() => {
+          handleClick();
+        }}
+      >
+        New Fact
+      </button>
     </div>
   );
 }
