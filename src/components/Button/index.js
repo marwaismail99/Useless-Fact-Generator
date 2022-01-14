@@ -1,9 +1,11 @@
 import React from "react";
 
-function Button() {
-  return <div>
-    <button>Get New Fact</button>
-  </div>;
+function Button({ handleClick }) {
+  return (
+    <div>
+      <button onClick={handleClick}>Get New Fact</button>
+    </div>
+  );
 }
 
 export default Button;

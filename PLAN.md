@@ -6,7 +6,7 @@ Random Useless Facts - https://uselessfacts.jsph.pl
 
 ## MVP
 
-- Render Header on screen which shows app header and random useless fact of the day
+- Render Header on screen which shows app header and random useless fact of the day - done
 - Render button on the screen
 - When button is pressed, render random useless fact on the screen underneath
 - Random fact has source which is clickable
