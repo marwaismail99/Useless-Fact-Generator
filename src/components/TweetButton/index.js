@@ -8,9 +8,6 @@ function TweetButton({ handleTweet, fact }) {
       <a
         href={`https://twitter.com/intent/tweet?text=${fact.text}`}
         target="blank"
-        onClick={() => {
-          handleTweet();
-        }}
       >
         Tweet
       </a>
