@@ -23,3 +23,7 @@ body {
   font-family: var(--sans-serif-font);
   color: var(--text-color);
 }
+
+.italic {
+  font-style: italic;
+}
