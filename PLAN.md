@@ -26,7 +26,7 @@ Random Useless Facts - https://uselessfacts.jsph.pl
 
 ## Backlog (post-MVP)
 
-- Styling - Tom.
-- Tweet button on random useless fact - Marwa.
+- Tweet button on random useless fact - Marwa
+- Styling - Tom
 - About link in header routes to about page which features team's names - Immanuel.
-- Testing.
+- Testing

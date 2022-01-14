@@ -1,0 +1,23 @@
+.tweet {
+  padding: 2rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.tweet a {
+  font-family: var(--sans-serif-font);
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: var(--text-color);
+  border: 2.5px solid var(--text-color);
+  padding: 0.5rem 1.75rem 0.5rem 1.75rem;
+  font-weight: 800;
+  transition: 0.15s all;
+  text-decoration: none;
+}
+
+.tweet a:hover {
+  background-color: var(--text-color);
+  color: #ffffff;
+  cursor: pointer;
+}

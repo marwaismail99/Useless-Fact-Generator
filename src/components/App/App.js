@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Button from "../Button";
 import Fact from "../Fact";
 import Header from "../Header";
+import TweetButton from "../TweetButton";
 
 function App() {
   // State for Fact of the Day
@@ -49,10 +50,17 @@ function App() {
     console.log(toggle);
   }
 
+  // Function for toggling the toggle state on TweetButton
+  function handleTweet() {
+    setToggle(!toggle);
+    console.log(toggle)
+  }
+
   return (
     <div className="App">
       <Header factOTD={factOTD} />
       <Fact fact={fact}/>
+      <TweetButton fact={fact} handleTweet={handleTweet}/>
       <Button handleClick={handleClick} />
     </div>
   );

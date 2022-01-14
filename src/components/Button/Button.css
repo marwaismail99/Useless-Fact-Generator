@@ -1,0 +1,16 @@
+.new-fact-button button {
+  font-family: var(--sans-serif-font);
+  font-size: 1.25rem;
+  background-color: #ffffff;
+  color: var(--text-color);
+  border: 3px solid var(--text-color);
+  padding: 0.75rem 3rem 0.75rem 3rem;
+  font-weight: 800;
+  transition: 0.15s all;
+}
+
+.new-fact-button button:hover {
+  background-color: var(--text-color);
+  color: #ffffff;
+  cursor: pointer;
+}
