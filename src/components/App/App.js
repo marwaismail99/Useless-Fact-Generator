@@ -28,6 +28,10 @@ function App() {
     getFactOfTheDay();
   }, []);
 
+  useEffect(() => {
+    // Code for fetching the api goes here
+  }, [toggle]);
+
   // Function for toggling the toggle state
   function handleClick() {
     setToggle(!toggle);
